@@ -1,0 +1,98 @@
+.alin-c {
+    text-align: center;
+}
+
+.cont_shop .srch_count {
+    font-size: 180%;
+    letter-spacing: 0.2em;
+}
+
+.pdb15 {
+    padding-bottom: 15px;
+}
+
+.pdt5 {
+    padding-top: 5px;
+}
+
+.fs-sml {
+    font-size: 80%;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.alin-l {
+    text-align: left;
+}
+
+.cont_shop .mapimage {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 760px;
+    height: 473px;
+    margin-bottom: 20px;
+}
+
+.cont_shop .arealink {
+    padding: 0 15px 15px;
+}
+
+.cont_shop .arealink dt {
+    float: left;
+    clear: both;
+    padding: 15px 0 0;
+    width: 150px;
+}
+
+.cont_shop .arealink dt a:visited, .cont_shop .arealink dt a:link {
+    font-weight: bold;
+    color: #764C24;
+    text-decoration: underline;
+}
+
+.cont_shop .arealink dd {
+    margin-left: 165px;
+    padding: 15px 0 0;
+    color: #666666;
+}
+
+.pdt20 {
+    padding-top: 20px;
+}
+
+.cap_line_bluf {
+    border-bottom: 1px solid #660000;
+    padding: 3px;
+    margin-bottom: 8px;
+    color: #660000;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.cont_shop .box1 {
+    border-bottom: dotted 1px #3C1E14;
+    margin-bottom: 15px;
+}
+
+.cont_shop .box1 .shopname {
+    float: left;
+    margin-left: 10px;
+    width: 240px;
+    font-weight: bold;
+}
+
+.cont_shop .box1 .shopinfo {
+    margin-left: 265px;
+}
+
+.cont_shop .box1 .add, .tel, .time {
+    display: block;
+    padding-left: 55px;
+    margin-bottom: 5px;
+}
+
+.cont_shop .box1 .btnarea {
+    text-align: right;
+    padding: 10px 0 15px;
+}
