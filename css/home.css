@@ -1,0 +1,186 @@
+#carouselExampleDark {
+    width: 1010px;
+    height: 270px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 250px;
+}
+
+#main h3 {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    text-align: left;
+    border-bottom: 2px solid #3C1E14;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#news {
+    width: 640px;
+    margin: 0 0 20px 0;
+}
+
+#news .section-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+}
+
+.list-social{
+    display: flex;
+    margin: 0 0 0 10px;
+}
+
+.list-social li{
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+#news_inner dd {
+    padding: 0 0 5px 190px;
+    margin: -1.6em 0 5px 0;
+    display: block;
+    border-bottom: 1px dotted #3B1E13
+}
+
+.icon_media_s span{
+    color: #fff;
+    background-color: #118B50;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#movie_wrapper {
+    width: 323px;
+    margin: 0 0 20px 0;
+    padding: 1px 0 0 0;
+}
+
+#contents {
+    width: 770px;
+    margin: 0 0 20px 0;
+}
+
+#brand{
+    width: 770px;
+    margin: 0 0 20px 0;
+}
+
+.card-effect{
+    background-color: rgb(255, 255, 210);
+    padding: 25px;
+    transition: all 0.35s ease;
+    border: 1px dotted #6C5643;
+}
+
+.card-effect:hover{
+    transform: translateY(5px);
+}
+
+.brand-logo{
+    margin-bottom: 10px;
+}
+
+.brand-logo img{
+    width: 100px;
+    height: 30px;
+}
+
+.brand-list{
+    position: relative;
+    overflow: hidden;
+}
+
+.brand-list::after{
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: #FCC737;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.35s ease;
+    z-index: -1;
+}
+
+.brand-list:hover h5,.brand-list:hover p{
+    color: white;
+}
+    
+.brand-list:hover::after{
+    opacity: 1;
+    top: 0;
+}
+
+.image-arrow2{
+    margin-left: 100px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#side {
+    width: 201px;
+    margin: 10px 0 10px 0;
+}
+
+#side li {
+    margin: 0 0 10px 0;
+}
+
+#syoseki {
+    padding: 5px 10px 10px 10px;
+    border: 1px solid #ccc;
+    background-color: #D8DBBD;
+}
+
+#syoseki h3 {
+    width: 100%;
+    min-height: 40px;
+    color: #FFFFFF;
+    padding: 8px 0 0 0;
+    margin: 0 auto 10px auto;
+    background-color: #3B1D13;
+}
+
+.book-list {
+    margin: 0;
+    text-align: start;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+.sns a{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #fff;
+    border:  1px solid #3B1D13;
+    padding: 3px;
+}
+
+.sns i{
+    margin-right: 10px;
+}
+
+

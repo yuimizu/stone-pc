@@ -1,0 +1,112 @@
+.contents__contact h3 {
+    margin: 2em 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents__contact ul.list_subject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em 1%;
+    margin: 2em 0 4em;
+    padding: 0;
+    list-style: none;
+}
+
+.contents__contact ul.list_subject li {
+    width: 24%;
+}
+
+.contents__contact ul.list_subject li a {
+    position: relative;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #A7824F;
+    border-radius: 4px;
+}
+
+.contents__contact ul.list_subject li a:hover{
+    background-color: #FCC737;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#buttons-calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: block;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.button-container-calendar span.guide {
+    position: relative;
+    padding-top: 2px;
+    padding-left: 1.6em;
+}
+
+.button-container-calendar span.guide:before {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    background-color: rgba(255, 192, 203, .5);
+}
+
+.button-container-calendar span.guide.temporary:before {
+    background-color: rgba(255, 99, 71, .5);
+}
+
+#cont_main table {
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.table-calendar th, .table-calendar td {
+    padding: 10px;
+    border: 1px solid #DFC384;
+    text-align: center;
+    vertical-align: top;
+}
+
+.date-picker:nth-child(7) {
+    color: blue;
+    background-color: rgba(255, 192, 203, .5) !important;
+}
+
+.date-picker:nth-child(1) {
+    color: red;
+    background-color: rgba(255, 192, 203, .5) !important;
+}
+
+

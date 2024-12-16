@@ -1,0 +1,33 @@
+.cap_line_blu {
+    border-bottom: 1px solid #660000;
+    padding: 3px;
+    margin-bottom: 20px;
+    color: #660000;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.cont_recruit .msg_photo {
+    float: left;
+    width: 170px;
+    display: inline;
+}
+
+.cont_recruit .index_mess {
+    margin-left: 180px;
+    padding-bottom: 30px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.member a{
+    color: #fff;
+    background-color: #A7824F;
+    padding: 10px;
+}
+
+.member a:hover{
+    background-color: #FCC737;
+}
